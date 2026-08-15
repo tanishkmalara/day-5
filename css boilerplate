@@ -1,0 +1,27 @@
+/* CSS Boilerplate */
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+/* Heading */
+h1 {
+    color: blue;
+    font-size: 32px;
+}
+
+/* Paragraph */
+p {
+    color: gray;
+    font-size: 18px;
+}
