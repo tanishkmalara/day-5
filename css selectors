@@ -1,0 +1,45 @@
+/* Element Selector */
+p {
+    color: blue;
+}
+
+/* Class Selector */
+.title {
+    color: red;
+}
+
+/* ID Selector */
+#main {
+    background-color: lightgray;
+}
+
+/* Universal Selector */
+* {
+    margin: 0;
+}
+
+/* Group Selector */
+h1, h2, p {
+    font-family: Arial;
+}
+
+/* Descendant Selector */
+div p {
+    color: green;
+}
+
+/* Child Selector */
+div > p {
+    color: purple;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    border: 2px solid black;
+}
+
+/* Hover Pseudo-class */
+button:hover {
+    background-color: blue;
+    color: white;
+}
